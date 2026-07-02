@@ -83,3 +83,19 @@ The dashboard uses **near real-time** market data.
 Running the Python notebook retrieves the latest financial data from Yahoo Finance, processes portfolio metrics, stores the processed data in Google Drive, and allows Power BI to display updated insights after a refresh.
 
 ---
+
+# Validation & Verification
+
+To improve the reliability of the dashboard, selected financial metrics were independently calculated in both Python and Power BI.
+
+The results were then cross-checked to verify that the dashboard calculations aligned with the Python-based analysis. This validation process helped ensure consistency between the analytical workflow and the dashboard visualisations.
+
+---
+
+# Project Perspective
+
+This project presents one possible approach to designing a purpose-built financial analytics dashboard.
+
+Rather than attempting to include every available financial indicator, the project demonstrates how a carefully selected set of metrics can be organised into a simplified analytical workflow.
+
+The objective is not to define a single "correct" dashboard design, but to illustrate how business intelligence tools can be used to build focused, purpose-driven financial analytics solutions.
